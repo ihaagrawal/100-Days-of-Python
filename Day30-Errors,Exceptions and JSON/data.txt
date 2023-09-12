@@ -1,0 +1,6 @@
+{
+    "aeded": {
+        "email": "angela@gmail.com",
+        "password": "ILts$$3I7XK8!Z$"
+    }
+}aeded | angela@gmail.com | ILts$$3I7XK8!Z$

@@ -1,0 +1,27 @@
+#importing everything from turtle
+from turtle import *
+import random
+
+tim = Turtle()
+tim.shape("turtle")
+tim.color("blue")
+tim.speed(4000)
+
+def change_color():
+     tim.color(random.random(), random.random(), random.random())
+
+for x in range (90):
+    #for 3 alternatiing colors
+    # if x%3 == 0:
+    #      c = 'red'
+    # elif (x+1)%3 == 0:
+    #      c='purple'
+    # else:
+    #      c = 'orange'
+    #tim.color(c)
+    tim.circle(100)
+    tim.left(4)
+    change_color()
+
+screen = Screen()
+screen.exitonclick()
